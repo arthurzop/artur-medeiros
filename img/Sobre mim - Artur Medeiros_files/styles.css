@@ -117,8 +117,7 @@ ul a{
 
 #sobre_img{
     width: 560px;
-    height: 560px;
-    margin: 15vh 5vw;
+    margin: 8vh 5vw;
     background-color: #646464aa;
     -webkit-filter: blur(0);
     filter: blur(0);
@@ -128,10 +127,10 @@ ul a{
     &:hover{
         -webkit-filter: blur(1px);
 	    filter: blur(2px);
-    }   
+    }
 
+    
 }
-
 
 #div_texto{
     display: flex;
@@ -151,11 +150,6 @@ ul a{
 
 #div_texto h3{
     font-size: 1.7rem;
-}
-
-#email{
-    padding-top: 5vh;
-    font-size: 2rem !important;
 }
 
 #div_tech{
@@ -188,15 +182,6 @@ ul a{
 
 #img img{
     width: 300px;
-    -webkit-transform: scale(1);
-	transform: scale(1);
-	-webkit-transition: .3s ease-in-out;
-	transition: .3s ease-in-out;
-
-    &:hover{
-        -webkit-transform: scale(1.1);
-	    transform: scale(1.1);
-    }
 }
 
 #img h2{
@@ -205,25 +190,9 @@ ul a{
     font-size: 2.5rem;
 }
 
-#img #boot{
-    width: 260px;
+#boot{
+    padding-top: 0px;
 }
-
-#codebar{
-    align-self: flex-start;
-    display: block;
-    margin: 4.9vw;
-    margin-left: 0;
-}
-
-#barcode{
-    font-family: 'Libre Barcode 128 Text';
-    color: #fff;
-    font-size: 2rem;
-    letter-spacing: 0.2rem;
-    transform:rotate(-90deg) ;
-}
-
 
 ::-webkit-scrollbar{
     width: 10px;
