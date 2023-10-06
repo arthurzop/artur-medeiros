@@ -306,8 +306,7 @@ path{
     #sobre_texto h1{
         text-wrap: wrap;
         font-size: 5.5rem;
-        padding: 5vw;
-        text-align: center;
+        padding: 5vh 1vw;
     }
 
     #sobre_mim{
