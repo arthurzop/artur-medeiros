@@ -12,7 +12,7 @@ body{
     font-family: 'montserrat', sans-serif;
     display: flex;
     flex-direction: column;
-    overflow: hidden;
+    overflow-x: hidden;
     cursor: default ;
     height: 100vh;
     width: 100vw;
@@ -37,6 +37,17 @@ header{
     z-index: 300;
     transition: 1s;
 
+}
+
+main{
+    display: flex;
+    width: 100vw;
+    margin: 5vh 5vw;
+    max-width: 100vw;
+    min-width: 100vw;
+    max-height: 100vh;
+
+    transition: 0.5s;
 }
 
 a{
@@ -96,6 +107,98 @@ ul a{
     font-size: 3rem;
     letter-spacing: 0.3rem;
 }
+
+#div_sobre{
+    display: flex;
+    flex-direction: row;
+    margin: 5vh 4vw 0vh;
+    width: 100vw;
+    padding: 0;
+}
+
+#sobre_img{
+    width: 560px;
+    margin: 8vh 5vw;
+    background-color: #646464aa;
+    -webkit-filter: blur(0);
+    filter: blur(0);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+
+    &:hover{
+        -webkit-filter: blur(1px);
+	    filter: blur(2px);
+    }
+
+    
+}
+
+#div_texto{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    align-items: center;
+    text-align: justify;
+    color: #fff;
+    margin: 6vh;
+}
+
+#about{
+    padding: 3vh 0vw;
+    font-size: 3.5rem;
+    align-self: flex-start;
+}
+
+#div_texto h3{
+    font-size: 1.7rem;
+}
+
+#div_tech{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    margin: 0vh;
+}
+
+#titulo_tech{
+    font-size: 3.2rem;
+    color: #fff;
+    margin: 0vh 14vw;
+}
+
+#techs{
+    display: flex;
+    justify-content: center;
+    margin: 3vh 0;
+    width: 100vw;
+}
+
+#img{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3vh 4vw;
+}
+
+#img img{
+    width: 300px;
+}
+
+#img h2{
+    color: #fff;
+    padding: 2vh;
+    font-size: 2.5rem;
+}
+
+
+
+
+
+
+
+
+
 
 
 
