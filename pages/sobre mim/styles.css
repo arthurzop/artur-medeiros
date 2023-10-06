@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Lekton:wght@400;700&family=Libre+Barcode+128+Text&family=Montserrat:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;500&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #333;
+    font-family: 'montserrat', sans-serif;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    cursor: default ;
+    height: 100vh;
+    width: 100vw;
+
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    color: #fff;
+    border-bottom: 1px solid #CCC;
+    background: rgb(75, 75, 75, 0.9);
+    filter: opacity(10);
+    padding: 0vw 1vw;
+    width: 100%;
+    position: fixed;
+    max-height: 100vh;
+    min-height: 9vh;
+    z-index: 300;
+    transition: 1s;
+
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+
+}
+
+ul a{
+    font-size: 1.2rem;
+}
+
+#outros{
+    display: flex;
+    position: relative;
+}
+
+#outros ul{
+    list-style: none;
+    display: flex;
+    gap: 3vw;
+    padding-right: 3vw;
+    align-items: start;
+}
+
+#item_sobre h2{
+    border-bottom: 3px rgba(255, 0, 0, 0.4) solid;
+}
+
+#item_port{
+    transition: 0.5s;
+
+        &::after{
+        content:'';
+        position: absolute;
+        width: 100%;
+        height: 3px;
+        background:rgba(255, 0, 0, 0.479);
+        transform: scaleX(0);
+        transform-origin: left;
+        transition: 0.1s;
+    }
+
+    &:hover{
+        transform: scaleX(1) ;
+    }
+
+    &:hover::after{
+        transform: scaleX(1);
+        transform-origin: left;
+    }
+}
+
+#titulo{
+    font-family: 'Lekton', sans-serif;
+    padding-left: 1.5vw;
+    font-size: 3rem;
+    letter-spacing: 0.3rem;
+}
+
+
+
+/* fonte weight */
+
+.bold{
+    font-weight: 700;
+}
+
+.medium{
+    font-weight: 500;
+}
+
+.regular{
+    font-weight: 400;
+}
