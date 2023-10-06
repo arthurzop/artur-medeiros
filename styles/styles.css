@@ -248,16 +248,17 @@ path{
     }
 
     body{
-        height: 100vh;
-        width: 100vw;
         overflow: visible;
     }
     
     header{
-        min-width: 100vw;
+        width: 100vw;
         display: flex;
         flex-direction: column;
         min-height: 7vh;
+        margin: 0;
+        padding: 0;
+        justify-content: center;
     }
 
     #outros{
@@ -266,13 +267,14 @@ path{
     }
 
     #outros a{
-        font-size: 1rem;
-        padding: 1vh;
+        font-size: 0.5rem;
+        padding: 1vh 2vw 0 0;
     }
 
     #titulo{
-        font-size: 2.3rem;
+        font-size: 1.5rem;
         padding: 2vh 1vw;
+        text-wrap: nowrap;
     }
 
     main{
@@ -280,19 +282,8 @@ path{
         width: 100vw;
 
         margin: 0;
-        margin-top: 8vh;
+        margin-top: 2vh;
         flex-direction: column;
-    }
-
-    #codebar{
-        display: flex;
-        margin: 0;
-        padding: 1vw;
-        align-self: center;
-    }
-
-    #barcode{
-        transform: none;
     }
 
     #sobre{
@@ -305,20 +296,22 @@ path{
 
     #sobre_texto h1{
         text-wrap: wrap;
-        font-size: 5.5rem;
-        padding: 5vh 1vw;
+        font-size: 3rem;
+        padding: 2vh 2vh 5vh;
+        background-color: #181818;
+        margin: 2vh 1.5vw;
     }
 
     #sobre_mim{
         text-align: center;
-        padding: 2vw;
-        font-size: 2.2rem;
+        padding: 5vw;
+        font-size: 2rem;
         color: #fff;
     }
 
     #sobre img{
-        width: 460px;
-        height: 500px;
+        width: 250px;
+        height: 300px;
         align-self: center;
         padding: 2vh 1vw;
     }
@@ -330,10 +323,22 @@ path{
     }
 
     #buttons button{
-        width: 100px;
-        height: 100px;
-        font-size: 3rem;
+        width: 80px;
+        height: 80px;
+        font-size: 2rem;
     }
+
+    #codebar{
+        display: flex;
+        margin: 1vw;
+        padding: 1vw;
+        align-self: center end;
+    }
+
+    #barcode{
+        transform: none;
+    }
+
 }
 
 /* fonte weight */
