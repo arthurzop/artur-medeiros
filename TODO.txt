@@ -1,0 +1,11 @@
+o que falta:
+
+arrumar a landing page (textos)
+
+deixar a page sobre mim responsiva
+
+projetar a page portfolio
+fazer a page portfolio
+deixar a page portfolio responsiva
+
+finalizar o figma (separar os prototipos do produto final)
