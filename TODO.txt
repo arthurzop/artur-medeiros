@@ -1,7 +1,5 @@
 o que falta:
 
-arrumar a landing page (textos)
-
 deixar a page sobre mim responsiva
 
 projetar a page portfolio

@@ -174,7 +174,7 @@ li{
     display: flex;
     width: 100%;
     justify-content: flex-end;
-    padding: 2vh;
+    padding: 5vh 0;
     gap: 25px;
 }
 
