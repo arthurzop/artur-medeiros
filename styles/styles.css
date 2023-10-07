@@ -320,6 +320,7 @@ path{
     #buttons{
         align-self: center;
         justify-content: center;
+        padding: 3vh 0;
         gap: 50px;
     }
 
