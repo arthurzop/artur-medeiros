@@ -132,7 +132,6 @@ ul a{
 
 }
 
-
 #div_texto{
     display: flex;
     flex-direction: column;
@@ -171,11 +170,15 @@ ul a{
     margin: 0vh 14vw;
 }
 
-#techs{
+#techs, #techs2{
     display: flex;
     justify-content: center;
-    margin: 3vh 0;
+    margin: 3vh 0 0;
     width: 100vw;
+}
+
+#techs2{
+    margin: 0;
 }
 
 #img{
@@ -210,7 +213,7 @@ ul a{
 }
 
 #codebar{
-    align-self: flex-start;
+    align-self: flex-end;
     display: block;
     margin: 4.9vw;
     margin-left: 0;
@@ -224,7 +227,6 @@ ul a{
     transform:rotate(-90deg) ;
 }
 
-
 ::-webkit-scrollbar{
     width: 10px;
 }
@@ -235,6 +237,125 @@ ul a{
 
 ::-webkit-scrollbar-thumb{
     background: #161616;
+}
+
+@media (max-width: 450px){
+
+    *{
+        max-width: 100vw;
+    }
+
+    body{
+        overflow: visible;
+    }
+    
+    header{
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        min-height: 7vh;
+        margin: 0;
+        padding: 0;
+        justify-content: center;
+    }
+
+    #outros{
+        align-self: center;
+        text-transform: uppercase;
+    }
+
+    #outros a{
+        font-size: 0.5rem;
+        padding: 1vh 2vw 0 0;
+    }
+
+    #titulo{
+        font-size: 1.5rem;
+        padding: 2vh 1vw;
+        text-wrap: nowrap;
+    }
+
+    main{
+        height: 100vh;
+        width: 100vw;
+
+        margin: 0;
+        margin-top: 2vh;
+        flex-direction: column;
+    }
+
+    #div_sobre{
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+        margin: 15vh 0;
+    }
+
+    #sobre_img{
+        width:  250px;
+        height: 250px;
+        padding: 0;
+        margin: 0;
+
+    }
+
+    #div_texto{
+        width: 100%;
+        margin: 0 5vw;
+    }
+
+    #about{
+        font-size: 2rem;
+        padding: 3vh 0 0;
+        margin: 0 5vw;
+        border-bottom: 2px solid rgba(255, 0, 0, 0.479);
+    }
+
+    #div_texto h3{
+        text-align: center;
+        font-size: 1rem;
+        padding: 2vh 3vw;
+    }
+
+    #email{
+        font-size: 1rem !important;
+        text-align: left;
+    }
+
+    #div_tech{
+        justify-content: center;
+        align-items: center;
+        margin: 5vh 0;
+    }
+
+    #titulo_tech{
+        font-size: 2.3rem;
+        margin: 0;
+        padding: 3vh 0 0;
+    }
+
+    #techs, #techs2{
+        flex-direction: column;
+    }
+
+    #img img{
+        width: 200px;
+        padding: 1vh;
+    }
+
+    #img #boot{
+        width: 180px;
+    }
+
+    #img h2{
+        font-size: 1.3rem;
+    }
+
+    #codebar{
+        display: none;
+    }
+
+
 }
 
 /* fonte weight */
