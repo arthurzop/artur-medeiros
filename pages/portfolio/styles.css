@@ -115,16 +115,17 @@ ul a{
 
 #titulo_port{
     font-size: 4rem;
+    margin-bottom: 4vh;
 }
 
 #main{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     margin: 0vh 5vw;
 }
 
-#preto{
+#preto, #poke{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -133,12 +134,15 @@ ul a{
 
 }
 
-#fig_preto{
+#fig_preto, #fig_poke{
     margin: 0;
+    box-shadow: 5px 6px 11px -3px rgb(66, 66, 66);
+    -webkit-box-shadow: 5px 6px 11px -3px rgb(66, 66, 66);;
+    -moz-box-shadow: 5px 6px 11px -3px rgb(66, 66, 66);;
 }
 
 
-#preto_texto{
+#preto_texto, #poke_texto{
     display: flex;
     flex-direction: column;
     width: 50%;
@@ -147,22 +151,131 @@ ul a{
     gap: 5vh 0;
 }
 
+#preto_texto a, #poke_texto a{
+    color: aqua;
+    text-decoration: underline;
+}
 
-#preto_texto h1{
+
+#preto_texto h1, #poke_texto h1{
     font-size: 2.8rem;
-    padding: 2vh;
+    padding: 1vh;
 }
 
-#preto_texto h3, #link{
-    font-size: 1.8rem;
-
-}
-
-#preto_texto h3{
+#preto_texto h3, #poke_texto h3{
     text-wrap: wrap;
     text-align: justify;
+    font-size: 1.8rem;
 }
 
+::-webkit-scrollbar{
+    width: 10px;
+}
+
+::-webkit-scrollbar-track{
+    background: #242424;
+}
+
+::-webkit-scrollbar-thumb{
+    background: #161616;
+}
+
+
+@media (max-width: 450px){
+
+    *{
+        max-width: 100vw;
+    }
+
+    body{
+        overflow: visible;
+    }
+    
+    header{
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        min-height: 7vh;
+        margin: 0;
+        padding: 0;
+        justify-content: center;
+    }
+
+    #outros{
+        align-self: center;
+        text-transform: uppercase;
+    }
+
+    #outros a{
+        font-size: 0.5rem;
+        padding: 1vh 2vw 0 0;
+    }
+
+    #titulo{
+        font-size: 1.5rem;
+        padding: 2vh 1vw;
+        text-wrap: nowrap;
+    }
+
+    main{
+        height: 100vh;
+        width: 100vw;
+
+        margin: 0;
+        flex-direction: column;
+    }
+
+    #main{
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 3vh;
+        margin-bottom: 0;
+    }
+
+    #titulo_port{
+        font-size: 2rem;
+        margin-top: 15vh;
+        margin-bottom: 0;
+        padding: 0;
+    }
+
+    #preto, #poke{
+        flex-direction: column;
+        margin: 0;
+        gap: 2vh 0;
+    }
+
+    #fig_preto, #fig_poke{
+        width: 100%;
+        height: 300px;
+    }
+
+    #fig_poke{
+        margin-top: 5vh;
+    }
+
+    #preto_texto, #poke_texto{
+        width: 100%;
+        text-wrap: wrap;
+        margin: 1vw;
+        gap: 3vh 0;
+    }
+
+    #preto_texto h1, #poke_texto h1{
+        font-size: 1.8rem;
+        padding-bottom: 0;
+    }
+
+    #preto_texto h3, #poke_texto h3{
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    #link{
+        display: none;
+    }
+}
 
 /* fonte weight */
 
@@ -176,9 +289,4 @@ ul a{
 
 .regular{
     font-weight: 400;
-}
-
-
-iframe{
-    margin-top: 20vh;
 }
