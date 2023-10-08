@@ -272,6 +272,10 @@ ul a{
         text-align: center;
     }
 
+    #preto_texto a, #poke_texto a{
+        text-wrap: wrap;
+    }
+
     #link{
         display: none;
     }
