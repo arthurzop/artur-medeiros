@@ -1,9 +1,7 @@
 o que falta:
 
-deixar a page sobre mim responsiva
-
-projetar a page portfolio
 fazer a page portfolio
 deixar a page portfolio responsiva
 
+responsividade para outros tamanhos de tela
 finalizar o figma (separar os prototipos do produto final)

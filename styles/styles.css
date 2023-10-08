@@ -93,30 +93,6 @@ li{
     }
 }
 
-/* #item_port{
-    transition: 0.5s;
-    
-    &::after{
-        content:'';
-        position: absolute;
-        width: 6.5vw;
-        height: 3px;
-        background:rgba(255, 0, 0, 0.479);
-        transform: scaleX(0);
-        transform-origin: left;
-        transition: 0.1s;
-    }
-    
-    &:hover{
-            transform: scaleX(1) ;
-        }
-    
-    &:hover::after{
-            transform: scaleX(1);
-            transform-origin: left; 
-    }
-} */
-
 #titulo{
     font-family: 'Lekton', sans-serif;
     padding-left: 1.5vw;
@@ -201,12 +177,12 @@ li{
     background-color: #6EA5FF;
 }
 
-#insta{
+/* #insta{
     background: #f09433; 
     background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
     background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
     background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
-}
+} */
 
 svg{
     transition-duration: .3s;

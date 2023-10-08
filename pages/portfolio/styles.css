@@ -40,8 +40,14 @@ header{
 
 main{
     display: flex;
+    flex-direction: column;
+    align-items: center;
     width: 100vw;
-    margin: 5vh 5vw;
+    height: 100vh;
+
+    margin-top: 15vh;
+    color: #fff;
+
     max-width: 100vw;
     min-width: 100vw;
     max-height: 100vh;
@@ -72,11 +78,11 @@ ul a{
     align-items: start;
 }
 
-#item_sobre h2{
+#item_port h2{
     border-bottom: 3px rgba(255, 0, 0, 0.4) solid;
 }
 
-#item_port{
+#hover{
     transition: 0.5s;
 
         &::after{
@@ -107,104 +113,56 @@ ul a{
     letter-spacing: 0.3rem;
 }
 
-#div_sobre{
+#titulo_port{
+    font-size: 4rem;
+}
+
+#main{
     display: flex;
     flex-direction: row;
-    margin: 5vh 4vw 0vh;
-    width: 100vw;
-    padding: 0;
-}
-
-#sobre_img{
-    width: 560px;
-    margin: 8vh 5vw;
-    background-color: #646464aa;
-    -webkit-filter: blur(0);
-    filter: blur(0);
-	-webkit-transition: .3s ease-in-out;
-	transition: .3s ease-in-out;
-
-    &:hover{
-        -webkit-filter: blur(1px);
-	    filter: blur(2px);
-    }
-
-    
-}
-
-#div_texto{
-    display: flex;
-    flex-direction: column;
-    width: 40%;
     align-items: center;
-    text-align: justify;
-    color: #fff;
-    margin: 6vh;
+    margin: 0vh 5vw;
 }
 
-#about{
-    padding: 3vh 0vw;
-    font-size: 3.5rem;
-    align-self: flex-start;
-}
-
-#div_texto h3{
-    font-size: 1.7rem;
-}
-
-#div_tech{
+#preto{
     display: flex;
-    flex-direction: column;
-    width: 100vw;
-    margin: 0vh;
-}
-
-#titulo_tech{
-    font-size: 3.2rem;
-    color: #fff;
-    margin: 0vh 14vw;
-}
-
-#techs{
-    display: flex;
-    justify-content: center;
-    margin: 3vh 0;
-    width: 100vw;
-}
-
-#img{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
     align-items: center;
-    padding: 3vh 4vw;
+    justify-content: center;
+    gap: 0 5vw;
+    margin: 5vh 0;
+
 }
 
-#img img{
-    width: 300px;
+#fig_preto{
+    margin: 0;
 }
 
-#img h2{
-    color: #fff;
+
+#preto_texto{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    text-align: center;
+    margin-right: 3vw;
+    gap: 5vh 0;
+}
+
+
+#preto_texto h1{
+    font-size: 2.8rem;
     padding: 2vh;
-    font-size: 2.5rem;
 }
 
-#boot{
-    padding-top: 0px;
+#preto_texto h3, #link{
+    font-size: 1.8rem;
+
 }
 
-::-webkit-scrollbar{
-    width: 10px;
+#preto_texto h3{
+    text-wrap: wrap;
+    text-align: justify;
 }
 
-::-webkit-scrollbar-track{
-    background: #242424;
-}
-
-::-webkit-scrollbar-thumb{
-    background: #161616;
-}
 
 /* fonte weight */
 
@@ -218,4 +176,9 @@ ul a{
 
 .regular{
     font-weight: 400;
+}
+
+
+iframe{
+    margin-top: 20vh;
 }
