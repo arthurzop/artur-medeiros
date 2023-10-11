@@ -181,6 +181,7 @@ ul a{
 }
 
 
+/*media query para celular*/
 @media (max-width: 450px){
 
     *{
@@ -280,6 +281,11 @@ ul a{
     #link{
         display: none;
     }
+}
+
+/*media query para notebook*/
+@media (max-width: 1024px){
+    
 }
 
 /* fonte weight */
