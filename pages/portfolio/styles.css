@@ -207,14 +207,13 @@ ul a{
         text-transform: uppercase;
     }
 
-    #outros a{
-        font-size: 0.5rem;
+    #item_sobre, #item_port {
         padding: 1vh 2vw 0 0;
     }
 
     #titulo{
         margin-left: 1.7vw;
-        font-size: 1.5rem;
+        font-size: 2rem;
         padding: 2vh 1vw;
         text-wrap: nowrap;
     }
@@ -223,7 +222,7 @@ ul a{
         height: 100vh;
         width: 100vw;
 
-        margin: 0;
+        margin: 5vh 0;
         flex-direction: column;
     }
 
