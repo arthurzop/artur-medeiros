@@ -326,6 +326,9 @@ ul a{
 
 }
 
+/*media query para tablet*/
+@media (max-width: 768px){
+}
 /* fonte weight */
 
 .bold{
