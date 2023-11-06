@@ -267,7 +267,7 @@ ul a{
     }
 
     #item_sobre, #item_port {
-        padding: 1vh 2vw;
+        padding: 1vh 2vw 0 0;
     }
 
     #titulo{
