@@ -161,7 +161,7 @@ ul a{
     display: flex;
     flex-direction: column;
     width: 100vw;
-    margin: 0vh;
+    margin-top: 10vh;
 }
 
 #titulo_tech{
