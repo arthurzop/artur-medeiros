@@ -102,7 +102,7 @@ li{
 
 #codebar{
     display: block;
-    margin: 10vh 3vw;
+    margin: 10vh 5vw;
     align-self: flex-end;
 }
 
@@ -216,6 +216,21 @@ path{
     opacity: 0;
     transition-duration: .3s;
   }
+
+/*configuração da scrollbar com webkit*/
+
+::-webkit-scrollbar{
+    width: 10px;
+}
+
+::-webkit-scrollbar-track{
+    background: #242424;
+}
+
+::-webkit-scrollbar-thumb{
+    background: #161616;
+}
+
 
 /*media query para celular*/
 @media (max-width: 450px){

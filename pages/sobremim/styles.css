@@ -228,6 +228,8 @@ ul a{
     transform:rotate(-90deg) ;
 }
 
+/*configuração da scrollbar com webkit*/
+
 ::-webkit-scrollbar{
     width: 10px;
 }
